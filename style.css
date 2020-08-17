@@ -1,0 +1,15 @@
+body {
+	margin: 0;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-item {
+	box-sizing: border-box;
+	width: calc(100% - 1rem);
+	height: 200px;
+	background-color: thistle;
+}
